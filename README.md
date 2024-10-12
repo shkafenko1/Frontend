@@ -11,6 +11,7 @@
 7. Отправляем изменения в удаленный репозиторий (git push -u https://github.com/TevenixLevelUps/Frontend)
 8. Создаем PR в вашем удаленном github репозитории. Укажите ФИО и ссылку на ТГ.
 
+
 ## Task 1
 https://www.figma.com/design/WQfofBBENKfqRLrFpGziK3/barbershop?node-id=0-1&t=1XcjhqTg4mz8i7K3-1
 
