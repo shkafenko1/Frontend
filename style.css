@@ -1,0 +1,59 @@
+.header{
+    background-color: gray;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu__links{
+    width: 50%;
+}
+
+.main{
+    background-image: url(Layer.png);
+}
+
+.advantages{
+    color: white;
+    display: flex;
+}
+
+.news-photo{
+    background-color: white;
+    
+    width: 60%;
+    display: flex;
+}
+
+.news-photo__news{
+    width: 50%;
+}
+
+.foto{
+    width: 98%;
+}
+
+.contacts{
+    background-color: white;
+
+    width: 60%;
+    display: flex;
+}
+
+.contacts__info{
+    width: 50%;
+}
+
+.footer__content{
+    background-color: gray;
+    display: flex;
+}
+
+.footer__content__text{
+    width: 33%;
+}
+
+.footer__content__networks{
+    width: 33%;
+}
