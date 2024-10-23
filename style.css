@@ -26,6 +26,7 @@ body{
 a{
     color: #f7f4f1;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .menu__links{
@@ -35,10 +36,18 @@ a{
     justify-content: space-around;
 }
 
+.menu__login{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 5px;
+}
+
 .main{
     background-image: url(Layer.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 0.8%;
 }
 
 .main__logo{
@@ -89,7 +98,7 @@ h2{
 .news-photo, .contacts{
     display: flex;
     flex-direction: row;
-    background-color:  #f7f4f1;
+    background-color:  #f7f4f1; 
     text-align: left;
     max-width: 40%;
     width: 100%;
@@ -104,7 +113,7 @@ h2{
     justify-content: space-between;
     margin: 10px 10px 10px 50px;
     padding: 10px 0 0px 0;
-    max-width: 50%;
+    max-width: 49%;
     width: 100%;
 }
 
@@ -136,15 +145,21 @@ button{
     margin: 10px 5px 10px 5px;
     padding: 10px 15px 10px 15px;
     max-width: 90%;
+    border: none;
+    cursor: pointer;
 }
 
 #button1{
     max-width: 50%;
 }
 
+#clickable-number{
+    color: gray;
+    text-decoration: none;
+}
+
 input{
-    border-color: black;
-    border-width: 3px;
+    border: 3px solid #212121;
     width: 100px;
     font-size: 1em;
     padding: 5px;
@@ -155,7 +170,7 @@ footer{
     display: flex;
     justify-content: center;
     background-color: #212121;
-    color: #f7f4f1
+    color: #f7f4f1;
 }
 
 .footer__content{
