@@ -1,58 +1,203 @@
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: xx-small;
+}
+
 .header{
-    background-color: gray;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .menu{
-    display: flex;
+    display:flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    font-size: 1em;
+    max-width: 38%;
+    width: 100%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+}
+
+a{
+    color: #f7f4f1;
+    text-decoration: none;
 }
 
 .menu__links{
-    width: 50%;
+    display: flex;
+    max-width: 70%;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .main{
     background-image: url(Layer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__logo{
+    display: flex;
+    justify-content: center;
+    padding: 1.5lh;
+}
+
+.logo__img{
+    width: 15%;
+    height: auto;
+    margin-top: 1%;
 }
 
 .advantages{
-    color: white;
     display: flex;
+    flex-direction: row;
+    color:  #f7f4f1;
+    justify-content: space-between;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 3%;
+    margin-top: 1%;
 }
 
-.news-photo{
-    background-color: white;
-    
-    width: 60%;
+.advantages__fast, .advantages__kruto, .advantages__expensive{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 31%;
+    width: 100%;
+    text-align: center;
+    font-size: xx-small;
 }
 
-.news-photo__news{
-    width: 50%;
+.infobox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    font-size: 1em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.news-photo, .contacts{
+    display: flex;
+    flex-direction: row;
+    background-color:  #f7f4f1;
+    text-align: left;
+    max-width: 40%;
+    width: 100%;
+    max-height: 37vh;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+
+.news-photo__news, .news-photo__photo, .contacts__info, .contacts__book{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 10px 10px 50px;
+    padding: 10px 0 0px 0;
+    max-width: 50%;
+    width: 100%;
 }
 
 .foto{
-    width: 98%;
+    width: 90%;
 }
 
-.contacts{
-    background-color: white;
-
-    width: 60%;
+.forms{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.contacts__info{
-    width: 50%;
+.forms__date, .forms__time, .forms__phone, .forms__name{
+    justify-content: center;
+    max-width:50%;
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: left;
+}
+
+button{
+    background-color: black;
+    color: #f7f4f1;
+    font-size: 1em;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 15px 10px 15px;
+    max-width: 90%;
+}
+
+#button1{
+    max-width: 50%;
+}
+
+input{
+    border-color: black;
+    border-width: 3px;
+    width: 100px;
+    font-size: 1em;
+    padding: 5px;
+    background-color: #f7f4f1;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+    color: #f7f4f1
 }
 
 .footer__content{
+    max-width: 40%;
+    width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__content__text, .footer__content__networks, .footer__content__dev{
+    max-width: 31%;
+    text-align: center;
 }
 
 .footer__content__text{
-    width: 33%;
+    text-align: left;
 }
 
-.footer__content__networks{
-    width: 33%;
+.net-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.network-img-box{
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    margin: 0 5px 5px 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.network-img{
+    width: auto;
+    height: 50%;
+}
+
+.developer{
+    background-color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
 }
